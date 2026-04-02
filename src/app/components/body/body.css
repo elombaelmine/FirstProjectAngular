@@ -1,11 +1,63 @@
 .container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    gap:  50px;
+    background-color: rgb(24, 34, 138);
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    margin-top: -90px;
+    margin-bottom: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-img{
-    width: 100px;
-    height: 100px;
+.logo{
+    width: 680px;
+    height: 710px;
+    justify-content: space-around;
+}
+
+.play{
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    gap: 5px;
+}
+.play-icon{
+    width: 30px;
+    height: 50px;
+}
+.left-side{
+    gap: 5px;
+    padding: 1rem;
+    color: white;
+    justify-content: space-around;
+}
+.h1{
+    font-size: 2rem;
+    text-align: justify;
+}
+.p{
+    font-size: 1.3rem;
+}
+.input-group{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.address{
+    padding: 0.5rem;
+    width: 280px;
+    border-radius: 8px;
+    border: none;
+}
+.startfree{
+    background-color: rgb(85, 49, 245);
+    color: white;
+    height: 60px;
+    width: 170px;
+    border-radius: 8px;
+    font-size: 1.rem;
+    border: none;
 }

@@ -1,0 +1,82 @@
+.secondpart {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.feature{
+ background-color: rgb(85, 49, 245);
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    border: none;
+    margin-bottom: -25px;
+}
+
+.heading{
+    font-size: 1.7rem;
+    color: rgb(24, 34, 138);
+    padding: 0.1rem;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+.description{
+    font-size: 1.4rem;
+    color: rgb(107, 107, 109);
+    padding: 0.1rem;
+    text-align: center;
+    line-height: 30px;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.card1{
+   background-color: white;
+   border: 30px;
+   border-radius: 8px;
+   width: 310px;
+   height: 280px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px;
+   line-height: 28px;
+}
+
+.icon1{
+    margin: 5px;
+   background-color: rgb(85, 49, 245);
+    height: 72px;
+    width: 65px;
+    border-radius: 10px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.p1{
+    color: rgb(158, 156, 156);
+    font-size: 1.1rem;
+}
+.image{
+    width: 30px;
+    height: 30px;
+}
+.h1{
+    font-size: 1.8rem;
+    color: rgb(24, 34, 138);
+    margin-bottom: 5px;
+}
