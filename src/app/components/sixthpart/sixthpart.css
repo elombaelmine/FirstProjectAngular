@@ -1,0 +1,69 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 50px;
+    background-color: rgb(255, 255, 246);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.team{
+    width: 115px;
+    height: 40px;
+    background-color: rgb(85, 49, 245);
+    color: white;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: -8px;
+}
+h2{
+    color:  rgb(24, 34, 138);
+}
+.h1{
+    font-size: 2.5rem;
+    color: rgb(24, 34, 138);
+    padding: 0.1rem;
+    text-align: center;
+}
+.text1{
+    font-size: 1rem;
+    color: rgb(107, 107, 109);
+    padding: 0.1rem;
+    text-align: center;
+    line-height: 25px;
+    margin-top: -15px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+img{
+    width: 370px;
+    height: 480px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.text{
+    border: 0px;
+    font-size: 1rem;
+    background-color: white;
+    height: 100px;
+    width: 370px;
+    padding: 0.1rem;
+    text-align: center;
+    line-height: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom: 0.2px solid rgb(173, 171, 171);
+}

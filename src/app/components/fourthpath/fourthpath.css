@@ -8,6 +8,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 .card1{
     display: flex;
