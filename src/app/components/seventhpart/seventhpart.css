@@ -1,0 +1,124 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.testimonials{
+     width: 130px;
+    height: 40px;
+    background-color: rgb(85, 49, 245);
+    color: white;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: -8px;
+}
+.h1{
+     font-size: 2.5rem;
+    color: rgb(24, 34, 138);
+    padding: 0.1rem;
+    text-align: center;
+}
+.text1{
+    font-size: 1rem;
+    color: rgb(107, 107, 109);
+    padding: 0.1rem;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 15px;
+}
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 340px;
+    height: 280px;
+    background-color: white;
+    color: black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.h-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.v-side{
+    display: flex ;
+    flex-direction: column;
+    margin-left: 35px;
+    margin-right: 25px;
+    text-align: justify;
+    color: rgb(151, 150, 150);
+    margin-top: 10px;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.content{
+    padding: 15px;
+    line-height: 10px;
+    text-align: justify;
+    margin-left: -30px;
+    
+}
+h1{
+    font-size: 1.1rem;
+    color: rgb(24, 34, 138);
+    padding: 0.1rem;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.content1{
+    padding: 15px;
+    line-height: 10px;
+    text-align: justify;
+    margin-left: -100px;
+}
+.stars{
+    color: rgb(248, 248, 20);
+    border: 5px;
+    font-size: 1.4rem;
+}
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px; /* Space between the dots */
+  padding: 20px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #1a237e; 
+  border-radius: 50%;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.dot.active {
+  width: 24px; /* Makes it wider like a pill */
+  border-radius: 10px;
+  background-color: #6200ee; /* Purple color from your image */
+}

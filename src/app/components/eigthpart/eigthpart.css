@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 50px;
+    background-color: rgb(2, 2, 87);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+   justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.right-card{
+    width: 570px;
+    height: 300px;
+    background-color: white;
+    color: black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    color:rgb(85, 49, 245);
+    font-size: 1rem;
+    padding: 0.1rem;
+    align-items: justify;
+    margin-top: 33px;
+    margin-left: 35px;
+}
+h1{
+    font-size: 2rem;
+    color: rgb(15, 22, 99);
+    padding: 0.1rem;
+    text-align: justify;
+    margin-left: 35px;
+    margin-top: -10px;
+}
+/* The outer box (The Surface) */
+.subscribe-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0; /* Light grey border */
+  border-radius: 8px;        /* Rounded corners */
+  padding: 5px;              /* Space between border and button */
+  width: 100%;
+  max-width: 400px;          /* Adjust width as needed */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.03); /* Very subtle shadow */
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+/* The Input Field */
+.email-field {
+  flex: 1;                   /* Takes up all available space */
+  border: none;              /* Removes the default input border */
+  outline: none;             /* Removes the blue outline on click */
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #666;               /* Grey text color */
+  background: transparent;
+}
+
+/* The Button */
+.subscribe-button {
+  background-color: rgb(85, 49, 245); /* Purple color from your image */
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;        /* Matches the button's rounded look */
+  font-weight: 600;
+  font-size: 14px;
+}

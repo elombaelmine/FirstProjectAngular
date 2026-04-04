@@ -8,10 +8,13 @@ import { Fourthpath } from './components/fourthpath/fourthpath';
 import { Fifthpart } from './components/fifthpart/fifthpart'; 
 import { Sixthpart } from './components/sixthpart/sixthpart';
 import { Seventhpart } from './components/seventhpart/seventhpart';
+import { Eigthpart } from './components/eigthpart/eigthpart';
+import { Ninepart } from './components/ninepart/ninepart';
+import { Tenpart } from './components/tenpart/tenpart';
 
 @Component({
   selector: 'app-root',
-  imports: [ Header, Body, Secondpart, Thirdpart, Fourthpath, Fifthpart, Sixthpart, Seventhpart ], 
+  imports: [ Header, Body, Secondpart, Thirdpart, Fourthpath, Fifthpart, Sixthpart, Seventhpart, Eigthpart, Ninepart, Tenpart ], 
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
