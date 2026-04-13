@@ -64,6 +64,11 @@
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: -25px;
+    
+}
+img{
+    position: relative;
+    top: 5px;
 }
 .h2{
     font-size: 1.3rem;
